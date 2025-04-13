@@ -1,0 +1,462 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px auto;
+    padding: 0px;
+    border: 0px;
+}
+
+.bk1{
+  background-color:beige;
+}
+.bk2{
+  background-color:rgb(216, 216, 192);
+}
+.bk3{
+  background-color:rgb(248, 248, 204);
+}
+.bk4{
+  background-color:rgb(253, 231, 199);
+}
+.bk5{
+  background-color:rgb(228, 215, 173);
+}
+.bk6{
+  background-color:rgb(207, 201, 181);
+}
+
+.header{
+    background-color: beige;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #ff6600;
+    text-shadow: 1px 1px 4px rgba(243, 243, 243, 0.7);
+}
+
+
+nav {
+    display: flex;
+    justify-content: center; /* centraliza o menu */
+    background-color: #ff6600;
+  }
+
+/* classe*/
+.menu {
+    list-style: none;
+    float: left;
+   
+}
+
+/* lista dentro de uma classe*/
+.menu li {
+    position: relative;
+    float: left;
+}
+
+/*links dentro da lista*/
+.menu li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    font-family: "Exo 2", sans-serif;
+}
+
+.menu li a:hover {
+    background: #700200;
+    color: #f8f1db;
+    box-shadow: 1px 1px 1px white;
+    text-shadow: 0px 0px 5px #000000;
+}
+
+/*começo do trabalho de dropdow**/
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    background-color: #ff6600;
+    display: none;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li ul li {
+    border: 1px solid rgb(61, 42, 165);
+    display: block;
+    width: 100px;
+}
+
+.banner1 {
+    background-image: url(./Imagens/BANNERLOGO.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* altura do banner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);}
+
+  .banner2 {
+        background-image: url(./Imagens/CONTATOSBANNER.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 200px; /* altura do banner */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-shadow: 1px 1px 4px rgba(0,0,0,0.7);}
+
+      .banner3 {
+          background-image: url(./Imagens/BANNER-ACOMPANHESEUPEDIDO.jpg);
+          background-size: cover;
+          background-position: center;
+          height: 200px; /* altura do banner */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          text-shadow: 1px 1px 4px rgba(0,0,0,0.7);}
+
+      .banner4 {
+            background-image: url(./Imagens/banner-façaseupedido.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 200px; /* altura do banner */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.7);}
+      .banner5 {
+          background-image: url(./Imagens/banner-infomarções.jpg);
+          background-size: cover;
+              background-position: center;
+              height: 200px; /* altura do banner */
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: white;
+              text-shadow: 1px 1px 4px rgba(0,0,0,0.7);}
+
+      .banner6 {
+                background-image: url(./Imagens/banner-nossahistoria.jpg);
+                background-size: cover;
+                    background-position: center;
+                    height: 200px; /* altura do banner */
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);}
+
+            
+      .banner7 {
+                      background-image: url(./Imagens/DUVIDA-BANNER.jpg);
+                      background-size: cover;
+                          background-position: center;
+                          height: 200px; /* altura do banner */
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          color: white;
+                          text-shadow: 1px 1px 4px rgba(0,0,0,0.7);}
+
+      .banner8 {
+                            background-image: url(./Imagens/TAMANHO-BANNER.jpg);
+                            background-size: cover;
+                                background-position: center;
+                                height: 200px; /* altura do banner */
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: white;
+                                text-shadow: 1px 1px 4px rgba(0,0,0,0.7);}
+  
+
+    .bloco {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+      }
+      
+      figure {
+        margin: 0;
+        text-align: center;
+      }
+      
+      figure img {
+        width: 300px;
+        height: auto;
+        border-radius: 60px;
+        margin-left: 200px;
+      }
+      
+      figure figcaption {
+        font-size: 12px;
+        color: #666;
+        margin-top: 1px;
+        margin-left: 200px;
+      }
+      
+      .texto {
+        max-width: 600px;
+      }
+      
+      .texto h2 {
+        margin-top: 0;
+        color: #ff6600;
+        font-family: "Exo 2", sans-serif;
+      }
+      
+      .texto p {
+        color: #333;
+        line-height: 1.5;
+        font-family: "Exo 2", sans-serif;
+      }
+      
+
+      .bloco2 {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 20px;
+        padding: 20px;
+        margin-right: 100px;
+      }
+      
+      figure {
+        margin: 0;
+        text-align: center;
+      }
+      
+      figure img {
+        width: 300px;
+        height: auto;
+        border-radius: 60px;
+        margin-left: 100px;
+      }
+      
+      figure figcaption {
+        font-size: 12px;
+        color: #666;
+        margin-top: 1px;
+        margin-left: 100px;
+      }
+      
+      .texto2 {
+        max-width: 600px;
+      }
+      
+      .texto2 h2 {
+        margin-top: 0;
+        color: #ff6600;
+        font-family: "Exo 2", sans-serif;
+      }
+      
+      .texto2 p {
+        color: #333;
+        line-height: 1.5;
+        font-family: "Exo 2", sans-serif;
+      }
+
+      /*pagina contato*/
+      .container1 {
+        margin-left: 40px;
+      }
+  
+      .titulo1 {
+        font-size: 32px;
+        color: #ff6600;
+        font-family: "Exo 2", sans-serif;
+        margin-right: 40px;
+      }
+  
+      .descricao1 {
+        font-size: 15px;
+        color: #333;
+        margin-top: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+      .container2 {
+        margin-right: 40px;
+      }
+  
+      .titulo2 {
+        font-size: 32px;
+        color: #ff6600;
+        font-family: "Exo 2", sans-serif;
+        text-align: right;
+        margin-right: 40px;
+      }
+  
+      .descricao2 {
+        font-size: 15px;
+        color: #333;
+        text-align: right;
+        margin-top: 10px;
+        margin-right: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+
+
+
+    /* Estrutura do Footer(Rodapé)*/
+
+.rodape {
+    background-color: black;
+    color: #f8f1db;
+    height: auto;
+    width: 100%;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.rodape a{
+    text-decoration: none;
+    color: #f8f1db;
+    margin-bottom: 5px;
+    background-color: #000000;
+}
+.rodape p{
+    margin-bottom: 5px;
+    background-color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px; 
+    background-color: #000000;  
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+    background-color: #000000;
+}
+
+
+.rodape span{
+    font-size: 20px;
+    color: #ff6600;
+    background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rodape-direito{
+    width: calc(100% - 20px);
+    background-color: rgb(80, 79, 78);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+.logo1{
+  width: 40px; 
+  height: auto;
+  margin: 5px;
+}
+
+.logo2{
+  width: 40px; 
+  height: auto;
+  margin: 5px;
+}
+.logo3{
+  width: 40px; 
+  height: auto;
+  margin: 5px;
+}
+.logo4{
+  width: 40px; 
+  height: auto;
+  margin: 5px;
+}
+
+
+.botao-estilizado {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-left: 150px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.botao-estilizado:hover {
+  background-color: #b14c08;
+}
+
+
+.duvidas-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff0e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.duvidas-container h1 {
+  text-align: center;
+  color: #ff6600;
+}
+
+.duvida {
+  margin-bottom: 20px;
+}
+
+.duvida h3 {
+  color: #ff6600;
+  margin-bottom: 5px;
+}
+
+.duvida p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.tamanhos-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff0e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tamanhos-container h1 {
+  text-align: center;
+  color: #ff6600;
+  margin-bottom: 30px;
+}
+
+.tamanho {
+  margin-bottom: 25px;
+}
+
+.tamanho h3 {
+  color: #ff6600;
+  margin-bottom: 8px;
+}
+
+.tamanho p {
+  margin: 0;
+  line-height: 1.6;
+}
